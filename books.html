@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+</head>
+<body>
+
+    <h1>Kitoblar royxati</h1>
+
+    {% for book in books %}
+        <p>{{ book.title }} | {{ book.author }}</p>
+    {% endfor %}
+
+</body>
+</html>
